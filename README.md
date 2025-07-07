@@ -12,3 +12,7 @@ This is a collection of resources for Python Crash Course, Third Edition.
 1. 按下 **`Command + K + S`** 打开键盘快捷键设置
 2. 输入 **`Python: Run Python File in Terminal`** 并选择它
 3. 在 **`Keybinding`** 设置 ***`Shift + Enter`*** 作为运行代码的快捷键
+
+## Visual Studio Code 的 Terminal 里安装 **matplotlib**
+
+如果遇到 `ModuleNotFoundError: No module named 'matplotlib'` 错误，可以通过 `.venv/bin/pip install matplotlib` 解决。
